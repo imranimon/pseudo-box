@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: cursive;
+        }
+        .make-block{
+            display: block;
+            margin-bottom: 10px;
+        }
+        .middle:focus {
+            color: orangered;
+ 
+        }
+        button:hover{
+            background-color: orange;
+        }
+        .ab{
+            text-decoration: none;
+
+        }
+        a{
+            margin-left: 10px;;
+        }
+        a:visited{
+            color: green;
+        }
+
+        li:first-child{
+            color: red
+        }
+        li:last-child{
+            color:aqua
+        }
+
+        li:nth-child(2n){
+            color: rgb(26, 128, 0);
+            background-color: rgb(228, 217, 217);
+        }
+
+        li:nth-child(2n-1){
+            background-color: rgb(240, 115, 115);
+        }
+
+        h1::before{
+            content: 'Before tag ';
+            font-size: small;
+        }
+
+        h1::after{
+            content: ' After tag';
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="make-block">
+        <label for="">Input Boxes</label> <br> <br>
+        <input class="make-block" type="text">
+        <input class="make-block middle" type="text">
+        <input class="make-block" type="text">
+    </div>
+
+    <div>
+        <button> <a class="ab" href="https://www.google.com/">Visit Google</a></button>
+    </div>
+    <br>
+    <div>
+        <a href="https://www.google.com/">Google</a> 
+        <a href="https://imranimon.github.io/developer-protfolio/index.html">Visit My Protfolio</a>
+        <a href="https://www.usingenglish.com/forum/threads/252800-Had-never-visited-or-never-visited-before">Never Visited</a>
+    </div>
+    <div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+
+    <div>
+        <h1>H1 Tag</h1>
+        <h1>H1 Tag</h1>
+        <h1>H1 Tag</h1>
+    </div>
+
+</body>
+
+</html>
